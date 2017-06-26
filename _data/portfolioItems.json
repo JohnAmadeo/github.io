@@ -1,0 +1,52 @@
+{
+  "portfolioItems" : [
+    {
+      "organization": "Faithlife",
+      "role": "Software Engineering Intern",
+      "period": "Summer 2017",
+      "blurbText": "making social networks awesome at Faithlife",
+      "galleryItemId": "fl",
+      "galleryText": "Built out new post types for Faithlife.com, a social network oriented around church communities, leading to 10% increase in monthly sessions",
+      "techStack": ["React", "C#", "MySQL"],
+      "photo": "faithlife.png",
+      "urls": {
+        "organization": "https://faithlife.com/about",
+        "code": "df",
+        "demo": "adf",
+        "website": "wqeewq",
+      },
+    },
+    {
+      "organization": "Faithlife",
+      "role": "Software Engineering Intern",
+      "period": "Summer 2017",
+      "blurbText": "making social networks awesome at Faithlife",
+      "galleryItemId": "fl",
+      "galleryText": "Built out new post types for Faithlife.com, a social network oriented around church communities, leading to 10% increase in monthly sessions",
+      "techStack": ["React", "C#", "MySQL"],
+      "photo": "faithlife.png",
+      "urls": {
+        "organization": "https://faithlife.com/about",
+        "code": "df",
+        "demo": "adf",
+        "website": "wqeewq",
+      },
+    },
+    {
+      "organization": "Faithlife",
+      "role": "Software Engineering Intern",
+      "period": "Summer 2017",
+      "blurbText": "making social networks awesome at Faithlife",
+      "galleryItemId": "fl",
+      "galleryText": "Built out new post types for Faithlife.com, a social network oriented around church communities, leading to 10% increase in monthly sessions",
+      "techStack": ["React", "C#", "MySQL"],
+      "photo": "faithlife.png",
+      "urls": {
+        "organization": "https://faithlife.com/about",
+        "code": "df",
+        "demo": "adf",
+        "website": "wqeewq",
+      },
+    },
+  ],
+}

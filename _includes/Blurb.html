@@ -1,0 +1,17 @@
+<div class="Blurb">
+  {% assign textWithoutPortfolioItems = site.data.strings.blurb.text | split: "%PORTFOLIO_ITEMS%" %}
+  {{ textWithoutPortfolioItems[0] }}
+  
+  {% assign nextToLastItemTh = site.data.portfolioItems.portfolioItems.size | minus: 1 %}
+
+  {% for item in site.data.portfolioItems.portfolioItems %}
+    <a href="#">{{ item.blurbText }}</a>    
+    {% if forloop.index < nextToLastItemTh %}
+      , 
+    {% elsif forloop.index == nextToLastItemTh %}
+      , and
+    {% endif %}
+  {% endfor %}
+  
+  {{ textWithoutPortfolioItems[1] }}
+</div>

@@ -1,0 +1,38 @@
+<div class="Gallery">
+  <div class="Gallery__title">Stuff I've Done / Built</div>
+  
+  {% for item in site.data.portfolioItems.portfolioItems %}
+    <div class="GalleryItem row">
+      <div class="GalleryItem__image-wrapper col-sm-3 col-md-2">
+        <img src="{{ site.data.urls.imagesFolder }}/{{ item.photo }}"/>
+      </div>
+      <div class="GalleryItem__description col-sm-9 col-md-10">
+        <div>{{ item.organization }}</div>
+        <div class="GalleryItem__description__text">{{ item.galleryText }}</div>
+        <div class="GalleryItem__description__text">
+          <span class="GalleryItem__description__tech-stack">
+            {% for tech in item.techStack %}
+              {{ tech }}
+              {% if forloop.index < item.techStack.size %}
+                ,
+              {% endif %}
+            {% endfor %}
+          </span>
+        </div>
+        <div class="GalleryItem__description__link-bar">
+          {% if item.urls.code != "" %}
+            <a target="_blank" href="{{ item.urls.code }}" class="btn btn-default">Code</a>
+          {% endif %}
+
+          {% if item.urls.demo != "" %}
+            <a target="_blank" href="{{ item.urls.demo }}" class="btn btn-default">Demo</a>
+          {% endif %}
+
+          {% if item.urls.website != "" %}
+            <a target="_blank" href="{{ item.urls.website }}" class="btn btn-default">Website</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
