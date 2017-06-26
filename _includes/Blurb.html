@@ -1,11 +1,10 @@
 <div class="Blurb">
-  {% assign textWithoutPortfolioItems = site.data.strings.blurb.text | split: "%PORTFOLIO_ITEMS%" %}
-  {{ textWithoutPortfolioItems[0] }}
+  I'm<span class="Blurb__name"> John Amadeo</span>, a Computer Science major at Yale. I've worked on
   
   {% assign nextToLastItemTh = site.data.portfolioItems.portfolioItems.size | minus: 1 %}
 
   {% for item in site.data.portfolioItems.portfolioItems %}
-    <a href="#">{{ item.blurbText }}</a>    
+    <a href="#{{ item.galleryItemId }}">{{ item.blurbText }}</a>    
     {% if forloop.index < nextToLastItemTh %}
       , 
     {% elsif forloop.index == nextToLastItemTh %}
@@ -13,5 +12,5 @@
     {% endif %}
   {% endfor %}
   
-  {{ textWithoutPortfolioItems[1] }}
+  . I'm passionate about building software that solves problems and brings people joy.
 </div>

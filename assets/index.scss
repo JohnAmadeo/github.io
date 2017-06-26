@@ -5,16 +5,24 @@
 @charset "utf-8";
 
 // Define variables
-$base-white: #FFF !default;
-$base-blue: #0D4D91 !default;
+// $base-white: #FFF !default;
+// $base-blue: #0D4D91 !default;
+$base-white: #000 !default;
+$base-blue: #FF805F;
 $base-font-family: 'Source Sans Pro', sans-serif !default;
+$base-font-weight-light: 300 !default;
+$base-font-weight-bold: 500 !default;
 
 body {
   /*background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%);*/
-  background-image: linear-gradient( 135deg, #4AF4DF 0%, #736EFE 100%);
-  /*background-image: linear-gradient( 135deg, #52E5E7 0%, #130CB7 100%);*/
-  /*background-image: linear-gradient( 135deg, #ABDCFF 0%, #0396FF 100%);*/
-  /*background-image: linear-gradient( 135deg, $base-white6B7 0%, #F6416C 100%);*/
+  // background-image: linear-gradient( 135deg, #4AF4DF 0%, #736EFE 100%);
+  // background-image: linear-gradient( 135deg, #52E5E7 0%, #130CB7 100%);
+  // background-image: linear-gradient( 135deg, #ABDCFF 0%, #0396FF 100%);
+  // background-image: linear-gradient( 135deg, $base-white6B7 0%, #F6416C 100%);
+  // background-image: linear-gradient( 135deg, #43CBFF 0%, #9708CC 100%);
+  // background-image: linear-gradient( 135deg, #52E5E7 0%, #2951C6 100%);
+  background: #FFF;
+  // background-image: linear-gradient( 135deg, #FEB692 0%, #EA5455 100%);
   margin-bottom: 200px;
 }
 
@@ -50,9 +58,10 @@ body {
 
 @media (max-width: 768px) {
   .Photo {
+
     img {
-      height: 100px;
-      width: 100px;
+      height: 160px;
+      width: 160px;
     }
   }  
 }
@@ -60,23 +69,29 @@ body {
 @media (min-width: 768px) {
   .Photo {
     img {
-      height: 160px;
-      width: 160px;
+      height: 240px;
+      width: 240px;
     } 
   }  
 }
 
 .Blurb {
-  font-weight: 200;
+  font-weight: $base-font-weight-light;
   line-height: 1.3; 
 
+  &__name {
+    color: $base-blue;
+    font-weight: $base-font-weight-bold;
+  }
+
   a {
-    border-bottom: 2px dotted $base-white;
-    color: $base-white;
-    font-weight: 400;  
+    border-bottom: 2px dotted $base-blue;
+    color: $base-blue;
+    font-weight: $base-font-weight-bold;  
 
     &:hover {
-      color: $base-blue;  
+      border-bottom: 2px solid $base-blue; 
+      opacity: 0.4;
     }  
   }
 }
@@ -89,7 +104,7 @@ body {
 
 @media (min-width: 768px) {
   .Blurb {
-    font-size: 40px;
+    font-size: 36px;
   }  
 }
 
@@ -105,7 +120,7 @@ body {
   }
 
   svg {
-    fill: $base-white;
+    fill: $base-blue;
     fill-opacity: 1;
     height: 40px;
     width: 40px;
@@ -118,9 +133,10 @@ body {
 
 .Gallery {
   &__title {
+    color: $base-blue;
     margin-bottom: 32px;
     font-size: 28px;
-    font-weight: 200;
+    font-weight: $base-font-weight-light;
   }
 }
 
@@ -133,12 +149,15 @@ body {
   }
 
   &__description {
-    font-size: 28px;
+    &__header {
+      color: $base-blue;
+      font-size: 28px;      
+    }
 
     &__text {
       margin: 8px 0;
-      font-size: 20px;
-      font-weight: 200;
+      font-size: 18px;
+      font-weight: $base-font-weight-light;
     }
 
     &__tech-stack {
@@ -150,10 +169,10 @@ body {
 
       .btn {
         background: none;
-        border: 1px solid $base-white;
-        color: $base-white;
+        border: 1px solid $base-blue;
+        color: $base-blue;
         font-size: 20px;
-        font-weight: 200;
+        font-weight: $base-font-weight-light;
         margin-right: 8px;
         padding: 4px 0;
         width: 80px;
