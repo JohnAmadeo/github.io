@@ -5,20 +5,20 @@
 @charset "utf-8";
 
 // Define variables
-// $base-white: #FFF !default;
-// $base-blue: #0D4D91 !default;
-$base-white: #000 !default;
-$base-blue: #FF805F;
+// $base-dark: #FFF !default;
+// $base-light: #0D4D91 !default;
+$base-dark: #000 !default;
+$base-light: #FF805F;
 $base-font-family: 'Source Sans Pro', sans-serif !default;
 $base-font-weight-light: 300 !default;
 $base-font-weight-bold: 500 !default;
 
 body {
-  /*background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%);*/
+  /*background-imagze: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%);*/
   // background-image: linear-gradient( 135deg, #4AF4DF 0%, #736EFE 100%);
   // background-image: linear-gradient( 135deg, #52E5E7 0%, #130CB7 100%);
   // background-image: linear-gradient( 135deg, #ABDCFF 0%, #0396FF 100%);
-  // background-image: linear-gradient( 135deg, $base-white6B7 0%, #F6416C 100%);
+  // background-image: linear-gradient( 135deg, $base-dark6B7 0%, #F6416C 100%);
   // background-image: linear-gradient( 135deg, #43CBFF 0%, #9708CC 100%);
   // background-image: linear-gradient( 135deg, #52E5E7 0%, #2951C6 100%);
   background: #FFF;
@@ -27,7 +27,7 @@ body {
 }
 
 #app {
-  color: $base-white;
+  color: $base-dark;
   font-family: $base-font-family;
 
   a {
@@ -36,7 +36,7 @@ body {
 }
 
 .Portfolio {
-  /*border: 2px solid $base-white;*/
+  max-width: 1440px;
   min-width: 320px;
   padding: 20px;
 }
@@ -80,17 +80,17 @@ body {
   line-height: 1.3; 
 
   &__name {
-    color: $base-blue;
+    color: $base-light;
     font-weight: $base-font-weight-bold;
   }
 
   a {
-    border-bottom: 2px dotted $base-blue;
-    color: $base-blue;
+    border-bottom: 2px dotted $base-light;
+    color: $base-light;
     font-weight: $base-font-weight-bold;  
 
     &:hover {
-      border-bottom: 2px solid $base-blue; 
+      border-bottom: 2px solid $base-light; 
       opacity: 0.4;
     }  
   }
@@ -120,7 +120,7 @@ body {
   }
 
   svg {
-    fill: $base-blue;
+    fill: $base-light;
     fill-opacity: 1;
     height: 40px;
     width: 40px;
@@ -133,7 +133,7 @@ body {
 
 .Gallery {
   &__title {
-    color: $base-blue;
+    color: $base-light;
     margin-bottom: 32px;
     font-size: 28px;
     font-weight: $base-font-weight-light;
@@ -150,8 +150,14 @@ body {
 
   &__description {
     &__header {
-      color: $base-blue;
+      color: $base-light;
       font-size: 28px;      
+    }
+
+    &__subheader {
+      margin: 8px 0;
+      font-size: 18px;
+      font-weight: $base-font-weight-bold;
     }
 
     &__text {
@@ -169,13 +175,13 @@ body {
 
       .btn {
         background: none;
-        border: 1px solid $base-blue;
-        color: $base-blue;
+        border: 1px solid $base-light;
+        color: $base-light;
         font-size: 20px;
         font-weight: $base-font-weight-light;
         margin-right: 8px;
         padding: 4px 0;
-        width: 80px;
+        width: 100px;
 
         &:hover {
           opacity: 0.4;          
