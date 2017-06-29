@@ -9,7 +9,7 @@
       <div class="GalleryItem__description col-sm-9 col-md-10">
         <div class="GalleryItem__description__header">{{ item.organization }}</div>
         {% if item.role != "" and item.period != "" %}
-          <div class="GalleryItem__description__text">{{ item.role }}, {{ item.period }}</div>
+          <div class="GalleryItem__description__subheader">{{ item.role }}, {{ item.period }}</div>
         {% endif %}
         <div class="GalleryItem__description__text">
         {% for galleryTextItem in item.galleryTextItems %}

@@ -3,13 +3,14 @@
     {
       "organization": "Faithlife",
       "role": "Software Engineering Intern",
-      "period": "Summer 2017",
-      "blurbText": "making social networks awesome at Faithlife",
+      "period": "Summer 2017 (Current)",
+      "blurbText": "making social networks empowering and delightful at Faithlife",
       "galleryItemId": "fl",
       "galleryTextItems": [
-        "Built out new post types for Faithlife.com, a social network oriented around church communities",
+        "Worked on back-end architecture to build out new post types for Faithlife.com, a social network oriented around church communities",
+        "Improved, fixed and tested functionality and design of customer-facing UI components used across the site",
       ],
-      "techStack": ["React", "C#", "MySQL"],
+      "techStack": ["React", "C#", "RabbitMQ", "MySQL", "Sass"],
       "photo": "faithlife.png",
       "urls": {
         "organization": "https://faithlife.com/about",
@@ -78,7 +79,7 @@
       "organization": "Emojiverse",
       "role": "",
       "period": "",
-      "blurbText": "emotion detecting Messenger bots",
+      "blurbText": "emotion detecting bots",
       "galleryItemId": "emj",
       "galleryTextItems": [
         "FB Messenger bot uses computer vision to replaces faces in an image with emoji expressing the same emotion",
