@@ -3,31 +3,52 @@
     {
       "organization": "Faithlife",
       "role": "Software Engineering Intern",
-      "period": "Summer 2017 (Current)",
-      "blurbText": "making social networks empowering and delightful at Faithlife",
+      "period": "Summer 2017",
+      "blurbText": "building rich text editors for a social network",
       "galleryItemId": "fl",
       "galleryTextItems": [
-        "Worked on back-end architecture to build out new post types for Faithlife.com, a social network oriented around church communities",
-        "Improved, fixed and tested functionality and design of customer-facing UI components used across the site",
+        "Built out front-end and back-end of new rich text editing feature used for post creation on site homepage",
+        "Ran user interview and wrote report for company CEO and VP of New Products",
+        "Improved, fixed and tested functionality and design of customer-facing UI components used across the site"
       ],
-      "techStack": ["React", "C#", "RabbitMQ", "MySQL", "Sass"],
+      "techStack": ["React", "C#", "RabbitMQ", "Git", "MySQL", "Less"],
       "photo": "faithlife.png",
       "urls": {
         "organization": "https://faithlife.com/about",
         "code": "",
         "demo": "",
-        "website": "http://faithlife.com",
-      },
+        "website": "http://faithlife.com"
+      }
+    },
+    {
+      "organization": "EmojiBar",
+      "role": "",
+      "period": "",
+      "blurbText": "a Slack-like emoji picker for FB Messenger",
+      "galleryItemId": "eb",
+      "galleryTextItems": [
+        "Slack-like emoji picker Chrome extension for Facebook Messenger",
+        "Planned marketing strategy and launched on Product Hunt",
+        "~25 downloads on Chrome Web Store"
+      ],
+      "techStack": ["React", "Less"],
+      "photo": "producthunt.gif",
+      "urls": {
+        "organization": "",
+        "code": "https://github.com/JohnAmadeo/emojibar",
+        "demo": "https://bit.ly/emojibar",
+        "website": ""
+      }
     },
     {
       "organization": "Yale Computer Society",
       "role": "Founder & Vice President",
       "period": "Fall 2016 - Current",
-      "blurbText": "building a great CS community as founder of the Yale Computer Society",
+      "blurbText": "growing community as founder of the Yale Computer Society",
       "galleryItemId": "ycs",
       "galleryTextItems": [
         "Founded club and grew membership to ~20 students in a year",
-        "Lead, planned, and supervised execution of community-oriented CS events such as tech talks, interview workshops, tech galas, and study sessions as VP of club with total attendance of ~250 students",
+        "Lead, planned, and supervised execution of community-oriented CS events such as tech talks, interview workshops, tech galas, and study sessions as VP of club with total attendance of ~250 students"
       ],
       "techStack": [],
       "photo": "yalecomputersociety.jpg",
@@ -35,8 +56,8 @@
         "organization": "https://yalecompsociety.org",
         "code": "",
         "demo": "",
-        "website": "https://yalecompsociety.org",
-      },
+        "website": "https://yalecompsociety.org"
+      }
     },
     {
       "organization": "Yale Social Robotics Lab",
@@ -46,7 +67,7 @@
       "galleryItemId": "ysrl",
       "galleryTextItems": [
         "Wrote automatic object detection system with computer vision libraries to enable the Baxter robot to play tic-tac-toe with a human opponent",
-        "Wrote new movement system that can approach and pick up game objects automatically",
+        "Wrote new movement system that can approach and pick up game objects automatically"
       ],
       "techStack": ["C++", "OpenCV", "ROS (Robot Operating System)"],
       "photo": "socialroboticslab.gif",
@@ -54,8 +75,8 @@
         "organization": "https://github.com/ScazLab",
         "code": "https://github.com/ScazLab/baxter_tictactoe",
         "demo": "https://www.youtube.com/watch?v=RCR3vv-vSwo",
-        "website": "",
-      },
+        "website": ""
+      }
     },
     {
       "organization": "BBash",
@@ -64,7 +85,7 @@
       "blurbText": "a Bash clone",
       "galleryItemId": "bbash",
       "galleryTextItems": [
-        "Wrote UNIX shell / command line interpreter inspired by Bash for CPSC 323 (Systems Programming and Computer Organization) in C with support for I/O redirection, pipelining, subcommand, conditionals etc.",
+        "Wrote UNIX shell / command line interpreter inspired by Bash for CPSC 323 (Systems Programming and Computer Organization) in C with support for I/O redirection, pipelining, subcommand, conditionals etc."
       ],
       "techStack": ["C", "UNIX"],
       "photo": "bbash.png",
@@ -72,26 +93,8 @@
         "organization": "",
         "code": "https://github.com/JohnAmadeo/bbash/blob/master",
         "demo": "",
-        "website": "",
-      },
-    },
-    {
-      "organization": "Emojiverse",
-      "role": "",
-      "period": "",
-      "blurbText": "emotion detecting bots",
-      "galleryItemId": "emj",
-      "galleryTextItems": [
-        "FB Messenger bot uses computer vision to replaces faces in an image with emoji expressing the same emotion",
-      ],
-      "techStack": ["Python", "OpenCV", "Microsoft Cognitive Services API", "Dropbox API", "Heroku"],
-      "photo": "emojiverse.gif",
-      "urls": {
-        "organization": "",
-        "code": "https://github.com/JohnAmadeo/emojiverse",
-        "demo": "https://www.facebook.com/emojiverse/",
-        "website": "",
-      },
-    },
-  ],
+        "website": ""
+      }
+    }
+  ]
 }
