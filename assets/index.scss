@@ -121,13 +121,17 @@ body {
 
   svg {
     fill: $base-light;
-    fill-opacity: 1;
+    fill-opacity: 0.7;
     height: 40px;
     width: 40px;
   
     &:hover {
       fill-opacity: 0.4;
     }
+  }
+
+  .medium {
+    margin: 0 0 4px 8px;
   }
 }
 
@@ -146,6 +150,10 @@ body {
 
   &__image-wrapper {
     padding: 0;
+
+    img {
+      border: 2px solid $base-light;      
+    }
   }
 
   &__description {
