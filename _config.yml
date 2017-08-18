@@ -29,6 +29,9 @@ markdown: kramdown
 gems:
   - jekyll-feed
 
+# Google services
+google_analytics: UA-104918515-1
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

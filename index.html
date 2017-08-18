@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="{{ site.github.url }}/assets/index.css"/>
     <link rel="shortcut icon" href="{{ site.github.url }}/{{ site.data.urls.imagesFolder }}/favicon.ico"/>
     <title>John Amadeo Daniswara</title>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
   </head>
 
   <body>
