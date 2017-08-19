@@ -23,7 +23,7 @@
     {
       "organization": "EmojiBar",
       "role": "",
-      "period": "",
+      "period": "2017",
       "blurbText": "a Slack-like emoji picker for FB Messenger",
       "galleryItemId": "eb",
       "galleryTextItems": [
@@ -43,7 +43,7 @@
     {
       "organization": "Yale Computer Society",
       "role": "Founder & Vice President",
-      "period": "Fall 2016 - Current",
+      "period": "Fall 2016 - Present",
       "blurbText": "growing community as founder of the Yale Computer Society",
       "galleryItemId": "ycs",
       "galleryTextItems": [
@@ -81,7 +81,7 @@
     {
       "organization": "BBash",
       "role": "",
-      "period": "",
+      "period": "2016",
       "blurbText": "a Bash clone",
       "galleryItemId": "bbash",
       "galleryTextItems": [
