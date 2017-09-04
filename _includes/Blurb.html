@@ -4,11 +4,13 @@
   {% assign nextToLastItemTh = site.data.portfolioItems.portfolioItems.size | minus: 1 %}
 
   {% for item in site.data.portfolioItems.portfolioItems %}
-    <a href="#{{ item.galleryItemId }}">{{ item.blurbText }}</a>    
-    {% if forloop.index < nextToLastItemTh %}
-      , 
-    {% elsif forloop.index == nextToLastItemTh %}
-      , and
+    {% if item.blurbText != "" %}
+      <a href="#{{ item.galleryItemId }}">{{ item.blurbText }}</a>    
+      {% if forloop.index < nextToLastItemTh %}
+        , 
+      {% elsif forloop.index == nextToLastItemTh %}
+        , and
+      {% endif %}
     {% endif %}
   {% endfor %}
   

@@ -7,11 +7,13 @@
       "blurbText": "building rich text editors for a social network",
       "galleryItemId": "fl",
       "galleryTextItems": [
-        "Built out front-end and back-end of new rich text editing feature used for post creation on site homepage",
-        "Ran user interview and wrote report for company CEO and VP of New Products",
-        "Improved, fixed and tested functionality and design of customer-facing UI components used across the site"
+        "Worked on Faithlife.com, a social network for church communities.",
+        "Built front-end and back-end of new rich text editing feature for creating posts on site homepage with React, C#, and Less.",
+        "Ran user interview to get product feedback and wrote report for company CEO and VP of New Products.",
+        "Added new features such as downloading calendar items from email notifications and support for uploading new image types using C#, React, and RabbitMQ.",
+        "Improved, and tested user-facing UI components across the site using React, NUnit, and Less."
       ],
-      "techStack": ["React", "C#", "RabbitMQ", "Git", "MySQL", "Less"],
+      "techStack": [],
       "photo": "faithlife.png",
       "urls": {
         "organization": "https://faithlife.com/about",
@@ -27,11 +29,11 @@
       "blurbText": "a Slack-like emoji picker for FB Messenger",
       "galleryItemId": "eb",
       "galleryTextItems": [
-        "Slack-like emoji picker Chrome extension for Facebook Messenger",
+        "Slack-like emoji picker Chrome extension for Facebook Messenger built with React.",
         "Planned marketing strategy and launched on Product Hunt",
-        "~25 downloads on Chrome Web Store"
+        ">30 downloads on Chrome Web Store"
       ],
-      "techStack": ["React", "Less"],
+      "techStack": [],
       "photo": "producthunt.gif",
       "urls": {
         "organization": "",
@@ -42,12 +44,12 @@
     },
     {
       "organization": "Yale Computer Society",
-      "role": "Founder & Vice President",
+      "role": "Co-founder & Vice President",
       "period": "Fall 2016 - Present",
-      "blurbText": "growing community as founder of the Yale Computer Society",
+      "blurbText": "growing community as co-founder of the Yale Computer Society",
       "galleryItemId": "ycs",
       "galleryTextItems": [
-        "Founded club and grew membership to ~20 students in a year",
+        "Co-founded club and grew organization to ~30 members in a year",
         "Lead, planned, and supervised execution of community-oriented CS events such as tech talks, interview workshops, tech galas, and study sessions as VP of club with total attendance of ~250 students"
       ],
       "techStack": [],
@@ -66,10 +68,10 @@
       "blurbText": "tic-tac-toe playing robots at the Social Robotics Lab",
       "galleryItemId": "ysrl",
       "galleryTextItems": [
-        "Wrote automatic object detection system with computer vision libraries to enable the Baxter robot to play tic-tac-toe with a human opponent",
-        "Wrote new movement system that can approach and pick up game objects automatically"
+        "Built new automatic object detection system with C++ and OpenCV to replace old hard-coded system.",
+        "Wrote new movement system with C++ and OpenCV for approaching and picking up game objects automatically to replace old predefined movement set."
       ],
-      "techStack": ["C++", "OpenCV", "ROS (Robot Operating System)"],
+      "techStack": [],
       "photo": "socialroboticslab.gif",
       "urls": {
         "organization": "https://github.com/ScazLab",
@@ -87,12 +89,30 @@
       "galleryTextItems": [
         "Wrote UNIX shell / command line interpreter inspired by Bash for CPSC 323 (Systems Programming and Computer Organization) in C with support for I/O redirection, pipelining, subcommand, conditionals etc."
       ],
-      "techStack": ["C", "UNIX"],
+      "techStack": [],
       "photo": "bbash.png",
       "urls": {
         "organization": "",
         "code": "https://github.com/JohnAmadeo/bbash/blob/master",
         "demo": "",
+        "website": ""
+      }
+    },
+    {
+      "organization": "Filezone",
+      "role": "",
+      "period": "2016",
+      "blurbText": "other projects",
+      "galleryItemId": "fz",
+      "galleryTextItems": [
+        "Web app for storing and viewing PDFs built with Python, React, Azure Storage and Heroku."
+      ],
+      "techStack": [],
+      "photo": "filezone.png",
+      "urls": {
+        "organization": "",
+        "code": "https://github.com/JohnAmadeo/filezone",
+        "demo": "https://filezone.herokuapp.com",
         "website": ""
       }
     }
